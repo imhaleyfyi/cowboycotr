@@ -31,12 +31,10 @@ p {
 	color: #161C1A;
 }
 
-footer.fixed-bottom {
-	position: fixed;
-	bottom: 0;
+footer.bottom {
 	width: 100%;
 	background-image: url(../images/tileable_wood_texture.png);
-	padding: 10px 0;
+	padding: 20px 0;
 	z-index: 100;
 	text-align: center;
 }
@@ -46,7 +44,7 @@ div.container {
 	background-color: rgba(41, 64, 41, 0.7);
 }
 
-header.absolute-top {
+header.top {
 	padding: 20px 0;
 	text-align: left;
 }
