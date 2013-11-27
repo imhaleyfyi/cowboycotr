@@ -17,12 +17,30 @@
 /* #Site Styles
 ================================================== */
 body {
+	background-image: url(../images/tileable_wood_texture.png);
 	font-family: 'Open Sans', sans-serif;
 }
 
 h1, h2, h3 {
 	font-family: 'Habibi';
 }
+
+header.fixed-top, footer.fixed-bottom {
+	position: fixed;
+	width: 100%;
+	text-align: center;
+	z-index: 100;
+}
+
+header.fixed-top {
+	top: 0;
+}
+
+footer.fixed-bottom {
+	bottom: 0;
+	padding: 10px 0;
+}
+
 
 /* #Page Styles
 ================================================== */
