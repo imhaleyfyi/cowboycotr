@@ -50,8 +50,13 @@ div.container {
 	background-color: rgba(219, 163, 99, 0.5);
 }
 
+div.container.sidebar {
+	padding: 0;
+	background-color: transparent;
+}
+
 header.top {
-	padding: 20px 0;
+	padding: 20px 0 20px 15px;
 	text-align: left;
 }
 
