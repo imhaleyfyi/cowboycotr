@@ -34,7 +34,7 @@ p {
 	font-weight: bold;
 }
 
-p, section, div.sidebar {
+p, section, div.sidebar, section.sidebar {
 	border-radius: 2px;
 }
 
