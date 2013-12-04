@@ -26,15 +26,25 @@ h1, h2, h3 {
 	font-family: 'Habibi';
 }
 
-p {
-	padding: 10px;
-	color: #33251A;
+article {
 	background-color: rgba(255, 190, 115, 0.2);
 	box-shadow: inset 0 2px 6px #DBA363;
+	padding: 10px;
+	margin-bottom: 20px;
+}
+
+article h1 {
+	font-size: 35px; 
+	line-height: 40px; 
+	margin-bottom: 10px;
+}
+
+p {
+	color: #33251A;
 	font-weight: bold;
 }
 
-p, section, div.sidebar, section.sidebar {
+p, section, article, div.sidebar {
 	border-radius: 2px;
 }
 
