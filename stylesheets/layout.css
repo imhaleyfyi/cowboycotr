@@ -20,10 +20,12 @@ body {
 	background-image: url(../images/tileable_wood_texture.png);
 	font-family: 'Open Sans', sans-serif;
 	color: #33251A;
+	font-weight: bold;
 }
 
 h1, h2, h3 {
 	font-family: 'Habibi';
+	font-weight: normal;
 }
 
 article {
@@ -34,14 +36,13 @@ article {
 }
 
 article h1 {
-	font-size: 35px; 
-	line-height: 40px; 
-	margin-bottom: 10px;
+	font-size: 28px; 
+	line-height: 34px; 
+	margin-bottom: 8px;
 }
 
 p {
 	color: #33251A;
-	font-weight: bold;
 }
 
 p, section, article, div.sidebar {
@@ -60,6 +61,17 @@ footer.bottom {
 	text-align: center;
 }
 
+header.top {
+	padding: 20px 0 20px 15px;
+	text-align: left;
+}
+
+section.sidebar h1 {
+	font-size: 21px; 
+	line-height: 30px; 
+	margin-bottom: 4px;
+}
+
 div.container.sixteen {
 	padding: 20px;
 	background-color: rgba(219, 163, 99, 0.4);
@@ -70,9 +82,8 @@ div.container.sidebar {
 	background-color: transparent;
 }
 
-header.top {
-	padding: 20px 0 20px 15px;
-	text-align: left;
+section.sidebar span {
+	display: block;
 }
 
 
