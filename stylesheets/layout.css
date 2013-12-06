@@ -58,8 +58,24 @@ p, section, article, div.sidebar, img {
 	border-radius: 2px;
 }
 
+nav a {
+	text-decoration: none;
+	font-weight: bold;
+}
+
+nav ul {
+	text-align: justify;
+}
+ 
 nav li {
 	display: inline-block;
+	width: 13%;
+}
+
+nav ul:after {
+    content: '';
+    display: inline-block;
+    width: 100%;
 }
 
 footer.bottom {
