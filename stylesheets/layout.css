@@ -71,6 +71,11 @@ li span {
 	display: block;
 }
 
+ul a {
+	display: block;
+	line-height: 1.8em;
+}
+
 nav a {
 	display: inline-block;
 	width: 13%;
