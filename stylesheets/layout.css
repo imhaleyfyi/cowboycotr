@@ -16,6 +16,11 @@
 
 /* #Site Styles
 ================================================== */
+html {
+	height: 102%;
+	overflow-y: scroll;
+}
+
 body {
 	background-image: url(../images/tileable_wood_texture.png);
 	font-family: 'Open Sans', sans-serif;
