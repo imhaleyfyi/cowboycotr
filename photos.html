@@ -6,19 +6,19 @@
 <head>
 
 	<!-- Basic Page Needs
-  ================================================== -->
+	================================================== -->
 	<meta charset="utf-8">
 	<title>Photos || Cowboy COTR</title>
 	<meta name="description" content="Cowboy Church on the Rock photo gallery">
 	<meta name="author" content="Haley Higgins">
 
 	<!-- Mobile Specific Metas
-  ================================================== -->
+	================================================== -->
 	<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 
 	<!-- CSS
-  ================================================== -->
-  <link href='http://fonts.googleapis.com/css?family=Habibi|Open+Sans:600' rel='stylesheet' type='text/css'>
+	================================================== -->
+	<link href='http://fonts.googleapis.com/css?family=Habibi|Open+Sans:600' rel='stylesheet' type='text/css'>
 	<link rel="stylesheet" href="stylesheets/base.css">
 	<link rel="stylesheet" href="stylesheets/skeleton.css">
 	<link rel="stylesheet" href="stylesheets/layout.css">
@@ -26,6 +26,32 @@
 	<!--[if lt IE 9]>
 		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js"></script>
 	<![endif]-->
+
+	<script src="http://code.jquery.com/jquery-latest.min.js" type="text/javascript"></script> 
+
+	<script src="collage/jquery.collagePlus.min.js"></script>
+	<script src="collage/extras/jquery.removeWhitespace.min.js"></script>
+
+	<script type="text/javascript">
+		$(window).load(function () {
+				$(document).ready(function(){
+						collage();
+				});
+		});
+		function collage() {
+			$('.Collage').removeWhitespace().collagePlus(
+				{
+					'fadeSpeed': 2000,
+					'targetHeight': 200
+				}
+			);
+			$('.Collage').collagePlus(
+				{
+					'allowPartialLastRow': true
+				}
+			);
+		};
+	 </script>
 
 </head>
 <body>
@@ -53,6 +79,35 @@
 					<a href="#!" class="active">Photos</a>
 					<a href="contact.html">Contact Us</a>
 				</nav>
+			</div>
+
+			<div class="row">
+				<div class="Collage">
+					<img src="gallery-images/img1.jpg" alt="">
+					<img src="gallery-images/img2.jpg" alt="">
+					<img src="gallery-images/img3.jpg" alt="">
+					<img src="gallery-images/img4.jpg" alt="">
+					<img src="gallery-images/img5.jpg" alt="">
+					<img src="gallery-images/img6.jpg" alt="">
+					<img src="gallery-images/img7.jpg" alt="">
+					<img src="gallery-images/img8.jpg" alt="">
+					<img src="gallery-images/img9.jpg" alt="">
+					<img src="gallery-images/img10.jpg" alt="">
+					<img src="gallery-images/img11.jpg" alt="">
+					<img src="gallery-images/img12.jpg" alt="">
+					<img src="gallery-images/img13.jpg" alt="">
+					<img src="gallery-images/img14.jpg" alt="">
+					<img src="gallery-images/img15.jpg" alt="">
+					<img src="gallery-images/img16.jpg" alt="">
+					<img src="gallery-images/img17.jpg" alt="">
+					<img src="gallery-images/img18.jpg" alt="">
+					<img src="gallery-images/img19.jpg" alt="">
+					<img src="gallery-images/img20.jpg" alt="">
+					<img src="gallery-images/img21.jpg" alt="">
+					<img src="gallery-images/img22.jpg" alt="">
+					<img src="gallery-images/img23.jpg" alt="">
+					<img src="gallery-images/img24.jpg" alt="">
+				</div>
 			</div>
 
 		</div><!-- container -->

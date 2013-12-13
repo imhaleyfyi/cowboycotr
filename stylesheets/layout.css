@@ -124,6 +124,15 @@ section.sidebar span {
 	display: block;
 }
 
+div.Collage {
+	padding: 10px;
+}
+
+div.Collage img {
+	vertical-align: bottom;
+	opacity: 0;
+}
+
 
 /* #Page Styles
 ================================================== */
