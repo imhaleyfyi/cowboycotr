@@ -32,10 +32,16 @@
 	<script src="collage/jquery.collagePlus.min.js"></script>
 	<script src="collage/extras/jquery.removeWhitespace.min.js"></script>
 
+	<link rel="stylesheet" href="lightbox/css/lightbox.css">
+	<script src="lightbox/js/lightbox-2.6.min.js"></script>
+
 	<script type="text/javascript">
 		$(window).load(function () {
 				$(document).ready(function(){
 						collage();
+						$(".Collage img").each(function(){
+							$(this).wrap("<a href='"+$(this).attr('src')+"' data-lightbox='collage'></a>")
+						});
 				});
 		});
 		function collage() {
