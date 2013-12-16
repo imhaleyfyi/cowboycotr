@@ -85,7 +85,7 @@ ul a {
 	line-height: 1.8em;
 }
 
-nav a {
+nav:not(.sidebar) a {
 	display: inline-block;
 	width: 13%;
 	text-align: justify;
