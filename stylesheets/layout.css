@@ -85,6 +85,11 @@ ul a {
 	line-height: 1.8em;
 }
 
+.stuck {
+	position: fixed;
+	top: 30px;
+}
+
 nav:not(.sidebar) a {
 	display: inline-block;
 	width: 13%;
