@@ -59,7 +59,7 @@ p {
 	color: #33251A;
 }
 
-p, section, article, div.sidebar, img {
+p, section, article, div.sidebar, img, iframe {
 	border-radius: 2px;
 }
 
