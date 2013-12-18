@@ -49,10 +49,8 @@ article, figure {
 	margin-bottom: 20px;
 }
 
-article h1 {
-	font-size: 28px; 
-	line-height: 34px; 
-	margin-bottom: 8px;
+a {
+	text-decoration: none;
 }
 
 p {
@@ -85,6 +83,12 @@ ul a {
 	line-height: 1.8em;
 }
 
+article h1 {
+	font-size: 28px; 
+	line-height: 34px; 
+	margin-bottom: 8px;
+}
+
 .stuck {
 	position: fixed;
 	top: 30px;
@@ -94,7 +98,6 @@ nav:not(.sidebar) a {
 	display: inline-block;
 	width: 13%;
 	text-align: justify;
-	text-decoration: none;
 	font-weight: bold;
 }
 
