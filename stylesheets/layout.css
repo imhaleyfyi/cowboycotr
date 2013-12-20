@@ -93,7 +93,7 @@ article h1 {
 	margin-bottom: 8px;
 }
 
-article a {
+article a:hover, a[href^="http://vimeo.com/"]:hover, cite a:hover {
 	text-decoration: underline;
 }
 
