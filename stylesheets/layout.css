@@ -51,6 +51,10 @@ article, figure:not(:first-child) {
 
 a {
 	text-decoration: none;
+	-webkit-transition: all 0.2s ease-in-out;
+	-moz-transition: all 0.2s ease-in-out;
+	-ms-transition: all 0.2s ease-in-out;
+	transition: all 0.2s ease-in-out;
 }
 
 p {
@@ -109,6 +113,18 @@ nav:after {
 	content: '';
 	display: inline-block;
 	width: 100%;
+}
+
+nav.sixteen a {
+	line-height: 2em;
+	text-align: center;
+	border: 2px solid transparent;
+	border-radius: 0.3em;
+}
+
+nav.sixteen a:hover {
+	border: 2px solid rgba(219, 163, 99, 0.3);
+	background-color: rgba(255, 190, 115, 0.2);
 }
 
 footer.bottom {
