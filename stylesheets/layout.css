@@ -93,7 +93,7 @@ article h1 {
 	margin-bottom: 8px;
 }
 
-article a:hover, a[href^="http://vimeo.com/"]:hover, cite a:hover {
+article a:hover,  cite a:hover {
 	text-decoration: underline;
 }
 
@@ -115,14 +115,21 @@ nav:after {
 	width: 100%;
 }
 
-nav.sixteen a {
-	line-height: 2em;
-	text-align: center;
+nav.sixteen a, a[href^="http://vimeo.com/"] {
+	line-height: 2em;	
 	border: 2px solid transparent;
 	border-radius: 0.3em;
 }
 
-nav.sixteen a:hover {
+a[href^="http://vimeo.com/"] {
+	padding-left: 1em;
+}
+
+nav.sixteen a {
+	text-align: center;
+}
+
+nav.sixteen a:hover, a[href^="http://vimeo.com/"]:hover  {
 	border: 2px solid rgba(219, 163, 99, 0.3);
 	background-color: rgba(255, 190, 115, 0.2);
 }
