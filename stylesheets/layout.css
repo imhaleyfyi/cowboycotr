@@ -49,7 +49,7 @@ article, figure:not(:first-child) {
 	margin-bottom: 20px;
 }
 
-a {
+a, .nav-trigger {
 	text-decoration: none;
 	-webkit-transition: all 0.2s ease-in-out;
 	-moz-transition: all 0.2s ease-in-out;
@@ -61,7 +61,7 @@ p {
 	color: #33251A;
 }
 
-p, section, article, div.sidebar, img, iframe {
+p, section, article, img, iframe, div.sidebar, .nav-trigger {
 	border-radius: 2px;
 }
 
@@ -148,6 +148,28 @@ header.top {
 	max-height: 160px;
 }
 
+.nav-trigger {
+	display:inline-block;
+	height: 32px;
+	margin: 2px;
+	margin-bottom: -4px;
+	padding: 8px 10px;
+	line-height: normal;
+	vertical-align: center;
+	text-align: center;
+	cursor:pointer;
+	border: 2px solid #333;
+	box-sizing: border-box;
+}
+
+.nav-trigger:hover, .nav-trigger:focus {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.nav-trigger:active {
+	background-color: rgba(0,0,0,0.15);
+}
+
 section.sidebar h1 {
 	font-size: 21px; 
 	line-height: 30px; 
@@ -175,31 +197,6 @@ div.Collage {
 div.Collage img {
 	vertical-align: bottom;
 	opacity: 0;
-}
-
-.nav-trigger {
-	display:inline-block;
-	cursor:pointer;
-	margin-bottom: 2px;
-	vertical-align: center;
-	border: 1px solid black;
-	-webkit-border-radius: 3px;
-	border-radius: 3px;
-	padding: 8px 10px;
-	line-height: normal;
-	margin: 2px;
-	margin-bottom: -4px;
-	height: 32px;
-	text-align: center;
-	box-sizing: border-box;
-}
-
-.nav-trigger:hover, .nav-trigger:focus {
-	background-color: rgba(0,0,0,0.1);
-}
-
-.nav-trigger:active {
-	background-color: rgba(0,0,0,0.15);
 }
 
 
