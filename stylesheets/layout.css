@@ -177,6 +177,31 @@ div.Collage img {
 	opacity: 0;
 }
 
+.nav-trigger {
+	display:inline-block;
+	cursor:pointer;
+	margin-bottom: 2px;
+	vertical-align: center;
+	border: 1px solid black;
+	-webkit-border-radius: 3px;
+	border-radius: 3px;
+	padding: 8px 10px;
+	line-height: normal;
+	margin: 2px;
+	margin-bottom: -4px;
+	height: 32px;
+	text-align: center;
+	box-sizing: border-box;
+}
+
+.nav-trigger:hover, .nav-trigger:focus {
+	background-color: rgba(0,0,0,0.1);
+}
+
+.nav-trigger:active {
+	background-color: rgba(0,0,0,0.15);
+}
+
 
 /* #Page Styles
 ================================================== */
@@ -194,14 +219,54 @@ div.Collage img {
 	/* Tablet Portrait size to standard 960 (devices and browsers) */
 	@media only screen and (min-width: 768px) and (max-width: 959px) {}
 
+	@media only screen and (min-width: 768px) {
+		.small {
+			display: none;
+		}
+		.not-small {
+			display:block;
+		}
+	}
+
 	/* All Mobile Sizes (devices and browser) */
-	@media only screen and (max-width: 767px) {}
+	@media only screen and (max-width: 767px) {
+		header.top {
+			padding: 0;
+		}
+		h1 {
+			margin-bottom: 0;
+		}
+		header.top h1 {
+			display:inline-block;
+		}
+		nav.sixteen a {
+			display: block;
+			width: 100%;
+		}
+		nav.sixteen.columns.not-small {
+			display:none;
+		}
+	}
 
 	/* Mobile Landscape Size to Tablet Portrait (devices and browsers) */
-	@media only screen and (min-width: 480px) and (max-width: 767px) {}
+	@media only screen and (min-width: 480px) and (max-width: 767px) {
+		h1 {
+			font-size: 25px;
+		}
+		header.top h1 {
+			width: 370px;
+		}
+	}
 
 	/* Mobile Portrait Size to Mobile Landscape Size (devices and browsers) */
-	@media only screen and (max-width: 479px) {}
+	@media only screen and (max-width: 479px) {
+		h1 {
+			font-size: 18px;
+		}
+		header.top h1 {
+			width: 250px;
+		}
+	}
 
 
 /* #Font-Face

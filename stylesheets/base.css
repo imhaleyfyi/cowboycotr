@@ -265,5 +265,13 @@
 	.remove-bottom { margin-bottom: 0 !important; }
 	.half-bottom { margin-bottom: 10px !important; }
 	.add-bottom { margin-bottom: 20px !important; }
-
+	.icon-bar { 
+		display: block;
+		width: 18px;
+		height:2px;
+		background-color: #000;
+		border-radius: 1px;
+		margin-top: 2px;
+		margin-bottom: 2px;
+	}
 
