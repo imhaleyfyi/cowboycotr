@@ -61,7 +61,7 @@ p {
 	color: #33251A;
 }
 
-p, section, article, img, iframe, div.sidebar, .nav-trigger {
+p, section, article, img, iframe, div.sidebar {
 	border-radius: 2px;
 }
 
@@ -121,12 +121,12 @@ nav.sixteen a, a[href^="http://vimeo.com/"] {
 	border-radius: 0.3em;
 }
 
-a[href^="http://vimeo.com/"] {
-	padding-left: 1em;
-}
-
 nav.sixteen a {
 	text-align: center;
+}
+
+a[href^="http://vimeo.com/"] {
+	padding-left: 1em;
 }
 
 nav.sixteen a:hover, a[href^="http://vimeo.com/"]:hover  {
@@ -158,16 +158,27 @@ header.top {
 	vertical-align: center;
 	text-align: center;
 	cursor:pointer;
-	border: 2px solid #333;
+	border: 2px solid rgba(219, 163, 99, 0.5);
+	background-color: rgba(255, 190, 115, 0.3);
 	box-sizing: border-box;
 }
 
+.icon-bar {
+	background-color: rgba(219, 163, 99, 0.8);
+}
+
 .nav-trigger:hover, .nav-trigger:focus {
-	background-color: rgba(0,0,0,0.1);
+	border: 2px solid rgba(219, 163, 99, 0.7);
+	background-color: rgba(255, 190, 115, 0.5);
 }
 
 .nav-trigger:active {
-	background-color: rgba(0,0,0,0.15);
+	background-color: rgba(219, 163, 99, 0.5);
+	border: 2px solid rgba(219, 163, 99, 0.8);
+}
+
+.nav-trigger:active .icon-bar {
+	background-color: rgba(219, 163, 99, 0.8);
 }
 
 section.sidebar h1 {
