@@ -143,7 +143,7 @@ footer.bottom {
 }
 
 header.top {
-	padding: 20px 0 20px 15px;
+	padding: 20px 0 30px;
 	text-align: left;
 	max-height: 160px;
 }
@@ -277,6 +277,26 @@ div.Collage img {
 		}
 		header.top h1 {
 			width: 250px;
+		}
+	}
+
+	@media only screen and (max-width: 1224px) {
+		header a > img {
+			display: none;
+		}
+	}
+
+	@media only screen and (min-width : 1224px) {
+		header.top {
+			padding: 0;
+			padding-bottom: 40px;
+		}
+		header a > img {
+			z-index: 5;
+			width: 100%;
+		}
+		header a > h1 {
+			display: none;
 		}
 	}
 
