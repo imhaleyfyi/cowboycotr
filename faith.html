@@ -33,9 +33,11 @@
 	<script src="http://code.jquery.com/ui/1.10.3/jquery-ui.js"></script>
 	<script src="http://git.joahg.com/bibleRef.js/bibleRef.min.js"></script>
 	<script>
-		bibleRef = {
-			target: '_blank'
-		};
+		$(document).ready(function(){
+			$('body').bibleRef({
+				target: '_blank'
+			});
+		});
 	</script>
 	<script src="js/nav-mobile.js"></script>
 
